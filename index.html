@@ -1,38 +1,68 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
-<title>Slide-menu</title>
+<title>iZslide - super simple slide menu <(") </title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script src="js/nav.js"></script>
+<link rel="stylesheet" type="text/css" href="slide-menu.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300italic,300,400italic,500,500italic,700,700italic,900,900italic|Roboto+Slab:400,100,300,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/slide-menu.js"> </script>
+<script src="js/slide-menu.js"></script>
 </head>
+
 <body>
+	<div id="body">
+			<div id="wrapper">
+					<h1 class="title">iZslide - demo</h1>
+					<p class="author">by <a href="http://www.mcmillant.com">mcmillant</a></p>
+					<p class="content">
+					This is a simple example about slide-menu. when you <span class="code">.click </span>button, it will <span class="code">.addClass</span> to show menu, and it will add a "fog" over the website to alert user that they are working with slide menu.</br>
+					When<span class="code">.click</span> once again in close button or the fog it will <span class="code">.removeClass</span>.</br>
+					In here i used Jquery so <span class="code">.toggleClass</span> is pretty good - Add or remove one or more classes from each element in the set of matched elements, depending on either the class's presence or the value of the switch argument.
+					</p>
 
-	<div class="fog-hover"></div>
-	<button class="button-slide-menu" type="button"> Rape me!!!!</button>	
-		<!--Button who controls menu-->
-<div class="slide-menu">
-	
-	<div class="item-container">
-		<button class="button-slide-menu" type="button">no rape anymore :" </button>	
-		<h3>Archives</h3>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-		<nav>10/03/2014</nav>
-	</div> <!--an item-->
-</div> <!--SLIDE MENU-->
 
+
+							<!--Button who show menu-->
+								<button class="button-slide-menu button-slide-menu-style"type="button"></button>	
+								<p class="clickme">Click me please !!!</p>
+							<!--Button who show men-->
+					
+			</div> <!--#wrapper-->
+
+
+
+		<!--SLIDE MENU--> <!--This is menu who hides-->
+				<div class="fog-hover"></div> <!--the fog-->
+				<div class="slide-menu slide-menu-style"> <!--it contain items menu inside-->
+				
+					<div class="item-container"> <!--content of menu will be here-->
+						<button class="button-slide-menu button-slide-menu-style-close " type="button">Close</button> <!-- button CLose -->	
+						<h3>Archives</h3>
+						<nav>03/2014</nav>
+						<nav>05/2014</nav>
+						<nav>09/2014</nav>
+						<nav>10/2014</nav>
+						<nav>11/2014</nav>
+						<nav>12/2014</nav>
+						<h3>Categorites</h3>
+						<nav>Milk</nav>
+						<nav>Teen</nav>
+						<nav>Virgin</nav>
+						<nav>Brother and sister</nav>
+
+					</div> <!--an item-->
+				</div> 
+			<!--SLIDE MENU-->
+			
+			
+			<audio controls autoplay class="music">
+					  <source src="music/8-Bit Music - Samba de Janeiro.mp3"  type="audio/mp3">
+					Your browser does not support the audio element.
+			</audio>
+	</div>
 </body>
 
 </html>

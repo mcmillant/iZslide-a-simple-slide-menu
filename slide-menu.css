@@ -1,0 +1,82 @@
+/**SLIDE MENU STYLE**/
+.button-slide-menu-style {	 
+
+	padding: 9px 15px;
+	 width:45px;
+	 height:45px;
+	 border:none;
+	background:none;
+	background-image:url('images/icon-menu.png');
+	background-size:contain;
+	background-repeat:no-repeat;	
+    margin-right:16px;
+}
+.button-slide-menu-style-close {background:#00beca;padding: 5px 15px;border:none;color:white;font-size:12pt;}
+.item-container {margin:15px 25px;} /** ALL ITEMS IN MENU HERE**/
+.slide-menu-style {
+	  
+							width:250px;
+	
+							height:100%;
+	
+							background:#333333;
+	
+							margin:0;
+	
+							padding:0;
+	
+							position:fixed;
+	
+							top:0px;
+	
+							 z-index:1000;
+		
+							 -webkit-transition: all 0.3s;
+	
+							-moz-transition: all 0.3s;
+	
+							-ms-transition: all 0.3s;
+	
+							-o-transition: all 0.3s;
+	
+							transition: all 0.3s;
+}
+
+
+/****/
+
+
+/**SLIDE MENU ON ACTION**/
+.slide-menu {
+		
+	 right:-30%;
+	
+
+}
+
+
+.slide-menu-show{
+	right:0px;
+}
+
+
+
+.fog {
+	
+		position:fixed;
+	
+		display:block;
+	
+		background:rgba(0,0,0,0.2); /**YOU CAN CHANGE COLOR AND OPACITY OF THE FOG HERE**/
+		z-index:500;
+	
+		top:0;
+	
+		left:0;
+	
+		width:100%;
+	
+		height:100%;
+}
+
+
